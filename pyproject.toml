@@ -10,6 +10,7 @@ mlflow = "^1.26.0"
 scikit-learn = "^1.1.1"
 pandas = "^1.4.2"
 nltk = "^3.7"
+pyarrow = "^8.0.0"
 
 [tool.poetry.dev-dependencies]
 neovim = "^0.3.1"
