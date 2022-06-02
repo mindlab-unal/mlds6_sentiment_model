@@ -1,0 +1,4 @@
+artifact_location: file:///home/juselara/repositories/tmp/mlds6sentiment/scripts/mlruns/1
+experiment_id: '1'
+lifecycle_stage: active
+name: svm

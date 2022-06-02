@@ -1,10 +1,10 @@
 name: "mlds6_sentiment_model"
 
 entry_points:
-    sentiments_svm:
+    vidhya_svm:
       parameters:
         kernel: {type: str, default: "linear"}
         C: {type: float, default: 1.0}
         gamma: {type: float, default: 0.1}
-      command: "python scripts/train_test.py --kernel {kernel} --C {C} --gamma {gammma}"
+      command: "python scripts/vidhya.py --kernel {kernel} --C {C} --gamma {gamma}"
 
